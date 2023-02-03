@@ -12,6 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header/>}>
+          <Route index element={<LandingPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
