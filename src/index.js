@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './uiKit/components/Header';
 import LandingPage from './landingPage/LandingPage';
 import './index.css';
+import MyGoalsPage from './myGoalsPage/MyGoalsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Header/>}>
           <Route index element={<LandingPage/>}/>
+          <Route exact path="my-goals" element={<MyGoalsPage />}/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const LandingPage = () => {
     const [punchline, setPunchline] = useState([]);
 
-	useEffect(() => {
+	/*useEffect(() => {
 		const fetchData = async () => {
 			try{
 				const response = await fetch('https://dad-jokes.p.rapidapi.com/random/joke', {
@@ -23,7 +23,7 @@ const LandingPage = () => {
 		}
 
 		fetchData();
-	}, []);
+	}, []);*/
 
     /*useEffect(() => {
 		fetch('https://dad-jokes.p.rapidapi.com/random/joke',{
